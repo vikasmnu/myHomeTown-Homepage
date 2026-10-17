@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1,h2,h3,p {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.hero {
+    background: url('images/gurugram_city-1-hero.jpeg') no-repeat center center/cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.hero-heading, .hero-text {
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}   
+
+.hero-heading {
+    background-color: rgb(66, 48, 180);
+    
+}
+
+.hero-text {
+    background-color: rgba(57, 133, 114);
+    max-width: 600px;
+}
+
+.activities {
+    background-color: #F1FAEE;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.activities-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    height: 450px;
+}
+
+.activity img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+
+.activity p {
+    width: 300px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.guide img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.guide {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-card {
+    width: 500px;
+    height: 294px;
+    background-color: #A8DADC;
+    display: flex;
+     border-bottom: 5px solid #1D3557;
+    border-radius: 10px;
+}
+
+.guide-info {
+    text-align: center;
+    margin: 50px 20px;
+}
+
